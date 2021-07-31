@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a0a65da6ab7de12b721ffa6a71d73fce",
+    "packages": [
+        {
+            "name": "ramirophp/basic-magic",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ramirophp/basic-magic.git",
+                "reference": "79ba4beccdb0612285d7af6b652c988a46efe656"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ramirophp/basic-magic/zipball/79ba4beccdb0612285d7af6b652c988a46efe656",
+                "reference": "79ba4beccdb0612285d7af6b652c988a46efe656",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Rmo\\": "src/",
+                    "Rmo\\interface\\": "src/interfaces/"
+                },
+                "files": [
+                    "src/files/helpers_etiqueta.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ramirophp",
+                    "email": "ramiro_php@protonmail.com"
+                }
+            ],
+            "description": "etiquetas html para las vistas",
+            "support": {
+                "issues": "https://github.com/ramirophp/basic-magic/issues",
+                "source": "https://github.com/ramirophp/basic-magic/tree/main"
+            },
+            "time": "2021-07-30T23:54:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "ramirophp/basic-magic": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

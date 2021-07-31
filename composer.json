@@ -1,0 +1,8 @@
+{
+    "name": "rgg78/basic-magic-test",
+    "description": "testing my package",
+    "type": "project",
+    "require": {
+        "ramirophp/basic-magic": "dev-main"
+    }
+}
